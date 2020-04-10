@@ -7,7 +7,7 @@ logger = logging.Logger("request_logger")
 logger.setLevel(logging.INFO)
 
 formatter = logging.Formatter('%(asctime)s:%(message)s')
-filename = settings.get('settings', 'log_path')
+filename = settings.get('settings', 'log_file')
 file_handler = logging.FileHandler(filename=filename)
 file_handler.setFormatter(formatter)
 

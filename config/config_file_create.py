@@ -5,7 +5,7 @@ config = ConfigParser()
 config['settings'] = {
     'debug': 'true',
     'secret_key': 'animal-center-secret',
-    'log_path': 'requests.log',
+    'log_file': 'requests.log',
     'python_version': '3',
 }
 
